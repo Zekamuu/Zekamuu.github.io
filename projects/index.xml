@@ -12,7 +12,7 @@
       <link>https://Zekamuu.github.io/projects/ftc-year-one/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://Zekamuu.github.io/projects/ftc-year-one/</guid>
-      <description>&lt;p&gt;Objective&#xA;Primary: Quickly pick up cones and score them on low, medium, and high junctions.&#xA;Autonomous: Score pre-loaded cone, detect randomized signal sleeve, and park reliably.&#xA;Driver-Controlled: Enable driver to score as many cones as possible in 2 minutes, prioritizing speed and ease of use.&lt;/p&gt;&#xA;&lt;p&gt;Design Process&#xA;Identified the need for a holonomic drivetrain for agility, leading to the selection of a Mecanum Drive.&#xA;Determined that a multi-stage Cascading Linear Lift (Viper Slide) would provide the necessary reach and stability to score on the high junction&lt;/p&gt;</description>
+      <description>&lt;p&gt;Objective&lt;br&gt;&#xA;Primary: Quickly pick up cones and score them on low, medium, and high junctions.&lt;br&gt;&#xA;Autonomous: Score pre-loaded cone, detect randomized signal sleeve, and park reliably.&lt;br&gt;&#xA;Driver-Controlled: Enable driver to score as many cones as possible in 2 minutes, prioritizing speed and ease of use.&lt;/p&gt;&#xA;&lt;p&gt;Design Process&lt;br&gt;&#xA;Identified the need for a holonomic drivetrain for agility, leading to the selection of a Mecanum Drive.&lt;br&gt;&#xA;Determined that a multi-stage Cascading Linear Lift (Viper Slide) would provide the necessary reach and stability to score on the high junction&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

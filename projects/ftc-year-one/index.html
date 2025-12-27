@@ -243,27 +243,27 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>Objective
-Primary: Quickly pick up cones and score them on low, medium, and high junctions.
-Autonomous: Score pre-loaded cone, detect randomized signal sleeve, and park reliably.
+        <p>Objective<br>
+Primary: Quickly pick up cones and score them on low, medium, and high junctions.<br>
+Autonomous: Score pre-loaded cone, detect randomized signal sleeve, and park reliably.<br>
 Driver-Controlled: Enable driver to score as many cones as possible in 2 minutes, prioritizing speed and ease of use.</p>
-<p>Design Process
-Identified the need for a holonomic drivetrain for agility, leading to the selection of a Mecanum Drive.
+<p>Design Process<br>
+Identified the need for a holonomic drivetrain for agility, leading to the selection of a Mecanum Drive.<br>
 Determined that a multi-stage Cascading Linear Lift (Viper Slide) would provide the necessary reach and stability to score on the high junction</p>
-<p>Prototyping:
+<p>Prototyping:<br>
 Hardware: Built a 4-motor Mecanum chassis, a 3-stage lift actuated by a single motor with Dyneema rigging, and a 3D-printed two-servo claw with foam inserts for grip.</p>
-<p>Iteration:
-Autonomous: Implemented TensorFlow Lite with a custom-trained model to detect three possible AprilTag signals. Wrote encoder-based movement paths to strafe and park based on the vision result.
+<p>Iteration:<br>
+Autonomous: Implemented TensorFlow Lite with a custom-trained model to detect three possible AprilTag signals. Wrote encoder-based movement paths to strafe and park based on the vision result.<br>
 Tele-Op: Refined lift controls from simple manual power to a precise, encoder-based RUN_TO_POSITION system. This allowed the driver to set a target height, and the robot&rsquo;s PID controller would move to and hold that position automatically</p>
-<p>Hardware Abstraction
-BaseOpMode is responsible for mapping all the robot&rsquo;s hardware components from the configuration file to Java objects. This centralized approach ensures consistency across all OpModes.
+<p>Hardware Abstraction<br>
+BaseOpMode is responsible for mapping all the robot&rsquo;s hardware components from the configuration file to Java objects. This centralized approach ensures consistency across all OpModes.<br>
 Mecanum Drivetrain: Four DcMotorEx motors (leftFront, rightFront, leftBack, rightBack) are configured for a mecanum drive, allowing for holonomic movement (strafing). Motor directions are reversed as needed to ensure intuitive forward motion.</p>
 <pre tabindex="0"><code>rightFront.setDirection(DcMotor.Direction.REVERSE);
 leftFront.setDirection(DcMotor.Direction.REVERSE);
 leftBack.setDirection(DcMotor.Direction.REVERSE);
 rightBack.setDirection(DcMotor.Direction.REVERSE);
 </code></pre><p>Vision System: TensorFlow Object Detection</p>
-<p>The robot uses the TensorFlow Object Detection API to identify the randomized  signal on the sleeve.
+<p>The robot uses the TensorFlow Object Detection API to identify the randomized  signal on the sleeve.<br>
 Model and Labels: A custom-trained TensorFlow Lite model is loaded from the robot controller&rsquo;s storage. This model is trained to recognize three custom labels: &ldquo;s1&rdquo;, &ldquo;s4&rdquo;, and &ldquo;s5&rdquo;, which correspond to the three possible images on the signal sleeve.</p>
 <pre tabindex="0"><code>private static final String TFOD\_MODEL\_FILE = &#34;/sdcard/FIRST/tflitemodels/model\_20221023\_141235.tflite&#34;;
 private static final String[] LABELS = {
@@ -281,10 +281,10 @@ for (float confidence : symbolConfidences){
     }    
     i += 1;
 }
-</code></pre><p>Autonomous Pathing
-The autonomous routine is a sequence of encoder-based movements.
-Initial Movement: The robot drives forward a set distance (1100 encoder ticks) to position itself for scanning the signal sleeve.
-Signal Detection: The TensorFlow detection loop runs until a signal is confidently identified.
+</code></pre><p>Autonomous Pathing<br>
+The autonomous routine is a sequence of encoder-based movements.<br>
+Initial Movement: The robot drives forward a set distance (1100 encoder ticks) to position itself for scanning the signal sleeve.<br>
+Signal Detection: The TensorFlow detection loop runs until a signal is confidently identified.<br>
 Parking: Based on the value of selectedSymbol (0, 1, or 2), the robot executes a specific movement to park in the correct zone. The code implements paths for symbols 0 and 2, which involve strafing left or right.</p>
 <pre tabindex="0"><code>switch(selectedSymbol){
     case 0: // Strafe Left
@@ -301,15 +301,15 @@ Parking: Based on the value of selectedSymbol (0, 1, or 2), the robot executes a
         break;
 }
 </code></pre><p>This routine reliably parks the robot, fulfilling a key requirement of the autonomous period. Scoring the pre-loaded cone would be the next logical step to implement in this sequence.</p>
-<p>Drivetrain Control
+<p>Drivetrain Control<br>
 The robot uses a field-oriented mecanum drive, but the current implementation in TeleOpMain.java uses a simpler robot-oriented control scheme for rotation.
-Mecanum Kinematics: The left joystick&rsquo;s X and Y values are used to calculate a movement vector (magnitude and direction). These are translated into individual power levels for each of the four mecanum wheels, allowing for omnidirectional movement.
+Mecanum Kinematics: The left joystick&rsquo;s X and Y values are used to calculate a movement vector (magnitude and direction). These are translated into individual power levels for each of the four mecanum wheels, allowing for omnidirectional movement.<br>
 Rotation: The right joystick&rsquo;s X value (oldRotation) is added to the wheel power calculations to make the robot turn. While there is code present for IMU-based heading correction, it appears the simpler, direct joystick rotation is currently in use for driving. This prioritizes direct driver feedback</p>
 <pre tabindex="0"><code>float leftFrontPower = magnitude * (float)Math.sin(direction + Math.PI / 4) + oldRotation;
 float leftBackPower = magnitude * (float)Math.sin(direction - Math.PI / 4) + oldRotation;
 float rightFrontPower = magnitude * (float)Math.sin(direction - Math.PI / 4) - oldRotation;
 float rightBackPower = magnitude * (float)Math.sin(direction + Math.PI / 4) - oldRotation;
-</code></pre><p>Lift
+</code></pre><p>Lift<br>
 The D-pad (dpad_up, dpad_down) is used to increment or decrement a targetPosition for the lift motors. The motors, running in RUN_TO_POSITION mode, automatically move to and hold this precise height. This is ideal for quickly selecting the low, medium, or high junction heights.</p>
 <pre tabindex="0"><code>if(motorUp){
     targetPosition += liftSpeed;
@@ -322,7 +322,7 @@ targetPosition = (int)
     Math.max(minPosition, targetPosition)
     );
 motorOne.setTargetPosition(targetPosition);
-</code></pre><p>Claw
+</code></pre><p>Claw<br>
 The left trigger <code>(gamepad1.left_trigger)</code>, an analog input, directly controls the position of the two claw servos. This allows the driver to have fine-grained control over how tightly the cone is gripped</p>
 <pre tabindex="0"><code>float clawOpen = gamepad1.left_trigger;
 clawServoRight.setPosition(clawOpen);
