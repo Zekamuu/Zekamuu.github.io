@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rohan&#39;s Engineering Portfolio</title>
-    <link>https://Zekamuu.github.io/</link>
-    <description>Recent content on Rohan&#39;s Engineering Portfolio</description>
+    <title>Projects on Rohan&#39;s Engineering Portfolio</title>
+    <link>https://Zekamuu.github.io/projects/</link>
+    <description>Recent content in Projects on Rohan&#39;s Engineering Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://Zekamuu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://Zekamuu.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FTC Robotics, Year 1</title>
       <link>https://Zekamuu.github.io/projects/ftc-year-one/</link>
