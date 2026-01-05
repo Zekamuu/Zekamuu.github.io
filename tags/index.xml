@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Rohan&#39;s Engineering Portfolio</title>
+    <link>https://Zekamuu.github.io/tags/</link>
+    <description>Recent content in Tags on Rohan&#39;s Engineering Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Jan 2026 22:25:27 -0800</lastBuildDate>
+    <atom:link href="https://Zekamuu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>General</title>
+      <link>https://Zekamuu.github.io/tags/general/</link>
+      <pubDate>Sun, 04 Jan 2026 22:25:27 -0800</pubDate>
+      <guid>https://Zekamuu.github.io/tags/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>https://Zekamuu.github.io/tags/testing/</link>
+      <pubDate>Sun, 04 Jan 2026 22:25:27 -0800</pubDate>
+      <guid>https://Zekamuu.github.io/tags/testing/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
