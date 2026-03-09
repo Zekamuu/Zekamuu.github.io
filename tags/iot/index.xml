@@ -10,9 +10,9 @@
     <atom:link href="https://Zekamuu.github.io/tags/iot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project 1</title>
-      <link>https://Zekamuu.github.io/entries/project-1/</link>
+      <link>https://Zekamuu.github.io/projects/project-1/</link>
       <pubDate>Thu, 26 Feb 2026 22:15:47 -0800</pubDate>
-      <guid>https://Zekamuu.github.io/entries/project-1/</guid>
+      <guid>https://Zekamuu.github.io/projects/project-1/</guid>
       <description>&lt;p&gt;Quick Description: A weather station connected to IoT cloud, updateding cloud variables.&lt;/p&gt;&#xA;&lt;p&gt;Description: This is my first project, where I used an ESP-32 Microcontroller to power a DHT-11 sensor and create a weather station connected to the cloud via Arduino&amp;rsquo;s IoT cloud device service. I sought to introduce myself to the connection between hardware and software, and thought that this project would be a good start&lt;/p&gt;</description>
     </item>
   </channel>
