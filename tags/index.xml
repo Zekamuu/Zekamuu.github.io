@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rohan&#39;s Engineering Portfolio</title>
-    <link>https://Zekamuu.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Rohan&#39;s Engineering Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Feb 2026 22:15:47 -0800</lastBuildDate>
-    <atom:link href="https://Zekamuu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arduino Cloud</title>
-      <link>https://Zekamuu.github.io/tags/arduino-cloud/</link>
+      <link>http://localhost:1313/tags/arduino-cloud/</link>
       <pubDate>Thu, 26 Feb 2026 22:15:47 -0800</pubDate>
-      <guid>https://Zekamuu.github.io/tags/arduino-cloud/</guid>
+      <guid>http://localhost:1313/tags/arduino-cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>ESP32</title>
-      <link>https://Zekamuu.github.io/tags/esp32/</link>
+      <link>http://localhost:1313/tags/esp32/</link>
       <pubDate>Thu, 26 Feb 2026 22:15:47 -0800</pubDate>
-      <guid>https://Zekamuu.github.io/tags/esp32/</guid>
+      <guid>http://localhost:1313/tags/esp32/</guid>
       <description></description>
     </item>
     <item>
       <title>IoT</title>
-      <link>https://Zekamuu.github.io/tags/iot/</link>
+      <link>http://localhost:1313/tags/iot/</link>
       <pubDate>Thu, 26 Feb 2026 22:15:47 -0800</pubDate>
-      <guid>https://Zekamuu.github.io/tags/iot/</guid>
+      <guid>http://localhost:1313/tags/iot/</guid>
       <description></description>
     </item>
     <item>
       <title>Weather Station</title>
-      <link>https://Zekamuu.github.io/tags/weather-station/</link>
+      <link>http://localhost:1313/tags/weather-station/</link>
       <pubDate>Thu, 26 Feb 2026 22:15:47 -0800</pubDate>
-      <guid>https://Zekamuu.github.io/tags/weather-station/</guid>
+      <guid>http://localhost:1313/tags/weather-station/</guid>
       <description></description>
     </item>
     <item>
       <title>General</title>
-      <link>https://Zekamuu.github.io/tags/general/</link>
+      <link>http://localhost:1313/tags/general/</link>
       <pubDate>Sun, 04 Jan 2026 22:25:27 -0800</pubDate>
-      <guid>https://Zekamuu.github.io/tags/general/</guid>
+      <guid>http://localhost:1313/tags/general/</guid>
       <description></description>
     </item>
     <item>
       <title>Testing</title>
-      <link>https://Zekamuu.github.io/tags/testing/</link>
+      <link>http://localhost:1313/tags/testing/</link>
       <pubDate>Sun, 04 Jan 2026 22:25:27 -0800</pubDate>
-      <guid>https://Zekamuu.github.io/tags/testing/</guid>
+      <guid>http://localhost:1313/tags/testing/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Rohan&#39;s Engineering Portfolio</title>
-    <link>https://Zekamuu.github.io/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Rohan&#39;s Engineering Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Feb 2026 22:15:47 -0800</lastBuildDate>
-    <atom:link href="https://Zekamuu.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IoT Weather Station</title>
-      <link>https://Zekamuu.github.io/projects/project-1/</link>
+      <link>http://localhost:1313/projects/project-1/</link>
       <pubDate>Thu, 26 Feb 2026 22:15:47 -0800</pubDate>
-      <guid>https://Zekamuu.github.io/projects/project-1/</guid>
+      <guid>http://localhost:1313/projects/project-1/</guid>
       <description>&lt;p&gt;A weather station connected to IoT cloud, updateding cloud variables.&lt;/p&gt;&#xA;&lt;p&gt;Description: This is my first project, where I used an ESP-32 Microcontroller to power a DHT-11 sensor and create a weather station connected to the cloud via Arduino&amp;rsquo;s IoT cloud device service. I sought to introduce myself to the connection between hardware and software, and thought that this project would be a good start.&lt;/p&gt;&#xA;&lt;p&gt;This was my first experience planning out the resrouces I would need, ordering parts, and assembling everything together. Though I imagined a simple project like this would be straightforward, many roadblocks showed up. One example is the pinout diagrams I was searching up online, as many of them were for different versions of the ESP-32 microcontroller. Therefor, I had to test using a multimeter to identify correct pinouts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>IoT Weather Station</title>
-      <link>https://Zekamuu.github.io/projects/project-3/</link>
+      <link>http://localhost:1313/projects/project-3/</link>
       <pubDate>Thu, 26 Feb 2026 22:15:47 -0800</pubDate>
-      <guid>https://Zekamuu.github.io/projects/project-3/</guid>
+      <guid>http://localhost:1313/projects/project-3/</guid>
       <description>&lt;p&gt;A weather station connected to IoT cloud, updateding cloud variables.&lt;/p&gt;&#xA;&lt;p&gt;Description: This is my first project, where I used an ESP-32 Microcontroller to power a DHT-11 sensor and create a weather station connected to the cloud via Arduino&amp;rsquo;s IoT cloud device service. I sought to introduce myself to the connection between hardware and software, and thought that this project would be a good start&lt;/p&gt;</description>
     </item>
     <item>
       <title>PineScript Trading Indicators</title>
-      <link>https://Zekamuu.github.io/projects/project-2/</link>
+      <link>http://localhost:1313/projects/project-2/</link>
       <pubDate>Thu, 26 Feb 2026 22:15:47 -0800</pubDate>
-      <guid>https://Zekamuu.github.io/projects/project-2/</guid>
+      <guid>http://localhost:1313/projects/project-2/</guid>
       <description>&lt;p&gt;Coding custom indicators and strategies to make profits in the market&lt;/p&gt;&#xA;&lt;p&gt;Description: This is my first project, where I used an ESP-32 Microcontroller to power a DHT-11 sensor and create a weather station connected to the cloud via Arduino&amp;rsquo;s IoT cloud device service. I sought to introduce myself to the connection between hardware and software, and thought that this project would be a good start&#xA;&amp;ldquo;FinTech&amp;rdquo;, &amp;ldquo;PineScript&amp;rdquo;, &amp;ldquo;Algorithmic Trading&amp;rdquo;, &amp;ldquo;Financial Indicators&amp;rdquo;, &amp;ldquo;Technical Analysis&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test</title>
-      <link>https://Zekamuu.github.io/projects/test/</link>
+      <link>http://localhost:1313/projects/test/</link>
       <pubDate>Sun, 04 Jan 2026 22:25:27 -0800</pubDate>
-      <guid>https://Zekamuu.github.io/projects/test/</guid>
+      <guid>http://localhost:1313/projects/test/</guid>
       <description>&lt;p&gt;Some content&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; y;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Serial.out(x&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;y);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>
